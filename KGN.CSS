@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #2c3e50, #4ca1af);
+    color: white;
+    transition: background 0.3s, color 0.3s;
+}
+
+.dark-mode {
+    background: linear-gradient(to right, #1a1a1a, #333);
+    color: #ddd;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+h2 {
+    color: #00c3ff;
+    text-align: center;
+    border-bottom: 2px solid #00c3ff;
+    padding-bottom: 5px;
+}
+
+img {
+    display: block;
+    margin: auto;
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+/* Table Styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+th,
+td {
+    border: 1px solid white;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #00c3ff;
+    color: black;
+}
+
+tr:nth-child(even) {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Video Styling */
+video {
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+/* Button Styling */
+button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    background: #00c3ff;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #ff5733;
+    color: white;
+}
